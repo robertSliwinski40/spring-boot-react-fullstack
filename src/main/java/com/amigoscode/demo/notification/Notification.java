@@ -10,18 +10,14 @@ public class Notification {
         this.message = message;
         this.timestamp = timestamp;
     }
-
     public Notification() {
     }
-
     public String getMessage() {
         return message;
     }
-
     public ZonedDateTime getTimestamp() {
         return timestamp;
     }
-
     public void setMessage(String message) {
         this.message = message;
     }
