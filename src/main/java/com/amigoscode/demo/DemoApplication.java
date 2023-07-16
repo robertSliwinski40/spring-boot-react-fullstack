@@ -10,5 +10,14 @@ public class DemoApplication {
         System.out.println("Hi there");
 
         SpringApplication.run(DemoApplication.class, args);
+
+        printMessage("Hi, how are you?");
+        printMessage("I am fine,thx");
     }
+
+    private static void printMessage(String message) {
+        System.out.println(message);
+    }
+
+
 }
